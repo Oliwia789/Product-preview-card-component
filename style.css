@@ -1,0 +1,86 @@
+body {
+    margin: 5% 25%;
+    font-family: "Montserrat", sans-serif;
+    background-color: hsl(30, 38%, 92%);
+}
+
+main {
+    display: flex;
+}
+
+.card-image {
+    width: 50%;
+}
+
+.card-text {
+    width: 50%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 0px 10px 10px 0px;
+}
+
+.card-text-box {
+    padding: 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.parfum {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 10px;
+    color: hsl(228, 12%, 48%);
+}
+
+.perfume-title {
+    font-family: 'Fraunces', serif; 
+    font-size: 35px;
+    color: hsl(212, 21%, 14%);
+}
+
+.perfume-text {
+    color: hsl(228, 12%, 48%);
+    line-height: 35px;
+}
+
+.prices {
+    font-family: 'Fraunces', serif; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.new-price {
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: hsl(228, 12%, 48%);
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    color: white;
+    margin-top: 40px;
+    padding: 5%;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-btn {
+    margin-left: 5%;
+}
